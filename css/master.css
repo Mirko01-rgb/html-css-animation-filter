@@ -16,3 +16,25 @@ transition: width 2s;
   width: 100%;
 
 }
+
+/* Terzo esercizio */
+.ex-3-square {
+  transition: 2s;
+}
+
+.ex-3-square:hover{
+  border-radius: 100%;
+
+
+}
+
+/* Quarto esercizio */
+.ex-4-square {
+  transition:  2s;
+}
+
+.ex-4-square:hover{
+  opacity: 0;
+
+
+}
