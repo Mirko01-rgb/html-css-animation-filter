@@ -91,3 +91,143 @@ transition: 2s;
   transform: scale(1.5);
 
 }
+
+/* Decimo esercizio */
+.ex-10-icon {
+  animation: icon1 1s linear infinite ;
+}
+
+
+@keyframes icon1 {
+  0% {
+    transform: rotate(1turn)};
+}
+
+/* Undicesimo esercizio */
+.ex-11-icon:hover {
+  animation: icon2 2s linear;
+}
+
+@keyframes icon2 {
+  0%{
+    transform: rotate(0);
+  }
+
+ 90% {
+  transform: rotate(315deg);
+  }
+
+  100%{
+   transform: rotate(0);
+  }
+}
+
+/* Dodicesimo esercizio */
+.ex-12-button:hover .ex-12-top-white {
+  animation: top-white 3s linear;
+}
+@keyframes top-white  {
+  10% {
+   left: 10%;
+  }
+
+  50% {
+   left: calc(100% - 60px);
+  }
+
+  100% {
+   left: 10%;
+  } 
+}
+
+
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bottom-white  2s linear;
+}
+@keyframes bottom-white {
+  0% {
+    right: 20%;
+  }
+
+ 50% {
+    right: calc(100% - 60px);
+  }
+
+  100% {
+    right: 20%;
+  }
+}
+
+
+/* Tredicesimo Esercizio */
+.ex-13-button:hover .ex-13-top-white {
+    animation: top-white-2 2s linear;
+}
+@keyframes top-white-2{
+  0% {
+    left: 10%;
+    top: -10px;
+  }
+
+  20% {
+    left: calc(100% - 30px);
+    top: -10px;
+  }
+
+  40% {
+    left: calc(100% - 30px);
+    top: 100%;
+  }
+
+  60% {
+    left: 0;
+    top: 100%;
+  }
+
+  80% {
+    left: -15px;
+    top: -10px;
+  }
+
+  100% {
+    left: 10%;
+    top: -10px;
+  }
+
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: bottom-white-2 2s linear;
+}
+@keyframes bottom-white-2 {
+  0% {
+    bottom: -10px;
+    right: 20%;
+  }
+
+  20% {
+    right: calc(100% - 30px);
+    bottom: -10px;
+  }
+
+  40% {
+    right: calc(100% - 30px);
+    bottom: 100%;
+  }
+
+  60% {
+    right: 0;
+    bottom: 100%;
+  }
+
+  80% {
+    right: -15px;
+    bottom: -10px;
+  }
+
+  100% {
+    bottom: -10px;
+    right: 20%;
+  }
+}
