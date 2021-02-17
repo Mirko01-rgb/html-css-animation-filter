@@ -1,0 +1,18 @@
+/* Primo esercizio */
+.ex-1-square{
+  transition: background 2s;
+}
+
+.ex-1-square:hover{
+  background-color: red;
+}
+
+/* Secondo esercizio */
+.ex-2-square{
+transition: width 2s;
+}
+
+.ex-2-square:active{   /*funziona come hover, ma con il click   */
+  width: 100%;
+
+}
