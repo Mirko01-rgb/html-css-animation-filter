@@ -1,6 +1,6 @@
 /* Primo esercizio */
 .ex-1-square{
-  transition: background 2s;
+  transition: 2s;
 }
 
 .ex-1-square:hover{
@@ -9,7 +9,7 @@
 
 /* Secondo esercizio */
 .ex-2-square{
-transition: width 2s;
+transition: 2s;
 }
 
 .ex-2-square:active{   /*funziona come hover, ma con il click   */
@@ -35,6 +35,59 @@ transition: width 2s;
 
 .ex-4-square:hover{
   opacity: 0;
+}
 
+
+/* Quinto esercizio */
+.ex-5-square {
+  transition: 2s;
+}
+
+.ex-5-square:hover{
+  width: 150px;
+  height: 150px;
+}
+
+.ex-5-square:active{
+  width: 20px;
+  height: 20px;
+}
+
+
+/* Sesto esercizio */
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
+
+/* Settimo esercizio */
+.ex-7-img{
+  transition: 2s;
+}
+
+.ex-7-img:hover{
+  filter: grayscale(1);
+}
+
+
+/* Ottavo esercizio */
+.ex-8-img{
+  transition: all  2s;
+}
+
+.ex-8-img:hover{
+  filter: grayscale(1);
+  border-radius: 20px;
+}
+
+
+/* Nono esercizio */
+.ex-9-img{
+  transition: all  3s;
+}
+
+.ex-9-img:hover{
+  filter: grayscale(1);
+  border-radius: 20px;
+  transform: scale(1.5);
 
 }
